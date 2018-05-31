@@ -1,0 +1,8 @@
+{
+  "host" : "localhost",
+  "db_port" : 5432,
+  "user" : "yuyouqi",
+  "password" : "19670415",
+  "database" : "homework_user",
+  "listen_port" : 8001
+}
