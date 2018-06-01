@@ -1,3 +1,4 @@
+/*Package config provide global config */
 package config
 
 import (

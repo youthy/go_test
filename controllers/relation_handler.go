@@ -1,3 +1,4 @@
+/*Package controllers provide functions handle http request */
 package controllers
 
 import (
@@ -6,9 +7,9 @@ import (
 	"strconv"
 
 	"github.com/gorilla/mux"
-	"work/models"
-	"work/util"
-	"work/views"
+	"go_test/models"
+	"go_test/util"
+	"go_test/views"
 )
 
 // RelationIndexHandler return one's all relations

@@ -1,7 +1,7 @@
 package views
 
 import (
-	"work/models"
+	"go_test/models"
 )
 
 // UserIndex return slice of users

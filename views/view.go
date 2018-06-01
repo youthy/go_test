@@ -1,9 +1,10 @@
+/*Package views provide functions convert struct to show data */
 package views
 
 import (
 	"encoding/json"
+	"go_test/util"
 	"net/http"
-	"work/util"
 )
 
 // Render write bytes into http.ResponseWriter

@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"work/models"
-	"work/util"
-	"work/views"
+	"go_test/models"
+	"go_test/util"
+	"go_test/views"
 )
 
 // UserIndexHandler list user TODO divided into pages?

@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/go-pg/pg"
-	"work/config"
+	"go_test/config"
 )
 
 // Userdb is pointer to pg.DB

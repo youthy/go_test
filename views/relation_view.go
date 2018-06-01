@@ -1,7 +1,7 @@
 package views
 
 import (
-	"work/models"
+	"go_test/models"
 )
 
 // RelationIndex is view of relations index route

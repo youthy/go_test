@@ -10,11 +10,11 @@ import (
 	"fmt"
 	"net/http"
 
-	"./config"
-	"./controllers"
-	"./models"
-	"./util"
 	"github.com/gorilla/mux"
+	"go_test/config"
+	"go_test/controllers"
+	"go_test/models"
+	"go_test/util"
 )
 
 // Init connect db and init maxID

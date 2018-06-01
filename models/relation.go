@@ -1,3 +1,4 @@
+/*Package models define custom structs and operations */
 package models
 
 import "github.com/go-pg/pg"
