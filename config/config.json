@@ -4,5 +4,5 @@
   "user" : "yuyouqi",
   "password" : "19670415",
   "database" : "homework_user",
-  "listen_port" : 8001
+  "listen_port" : 80
 }

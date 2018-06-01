@@ -1,4 +1,4 @@
-package main
+package config
 
 import (
 	"encoding/json"
@@ -18,9 +18,9 @@ type Config struct {
 	ListenPort uint `json:"listen_port"`
 }
 
-// read config.json into global value GlobalConfig
-func readConfig() (Config, error) {
-	file, err := os.Open("config.json")
+// ReadConfig read config.json into global value GlobalConfig
+func ReadConfig() (Config, error) {
+	file, err := os.Open("config/config.json")
 	if err != nil {
 		return Config{}, err
 	}
