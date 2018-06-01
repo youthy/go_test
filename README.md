@@ -11,13 +11,13 @@
 install dependencies follow instructions on github pages
 
 ### Installation
-1. ensure you have `$GOPATH` define in your environment
+1. ensure you have `$GOPATH` defined in your environment
 2. `cd $GOPATH/src && git clone https://github.com/youthy/go_test.git`
 3. import sql data by 
-`psql -d [database_name]  -f homework.sql [username]` 
+`psql -d [database_name]  -f script/homework.sql [username]` 
 replace [database_name], [username] with real database and user name
 
-4. write `config.json` according to your own environment **be aware of that you should use sudo if `listen_port` is less 1024, otherwise error of permission denied will occurred**
+4. write `config/config.json` according to your own environment **be aware of that you should use sudo if `listen_port` is less 1024, otherwise error of permission denied will occurred**
 5. run `go build` then `./go_test` to start the server
 
   [1]: https://github.com/go-pg/pg
